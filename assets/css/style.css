@@ -75,8 +75,8 @@ section img {
 }
 
 a {
-  color: #2782cd;
-  border-bottom: 1px solid #2782cd;
+  color: #fda500;
+  border-bottom: 1px solid #fda500;
 }
 
 a:hover {
@@ -193,7 +193,7 @@ article .meta {
 }
 
 .content pre {
-  background: #00110d !important;
+  background: #383838 !important;
   padding: 12px 13px;
   margin-bottom: 1.75rem;
 }
@@ -259,7 +259,7 @@ article .meta {
   color: #ffffff;
 }
 .highlight .c {
-  color: #008800;
+  color: #ec3e6a;
   font-style: italic;
   background-color: #0f140f;
 } /* Comment */
