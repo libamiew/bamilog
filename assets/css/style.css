@@ -61,17 +61,19 @@ header .dmode img {
 }
 
 header section {
+  width: 40rem;
   display: flex;
-  margin: 0 0 4.375rem 0;
-  justify-content: space-between;
-  align-items: flex-start;
 }
 
 section img {
-  width: 50px;
-  height: 50px;
+  width: 200px;
+  height: 200px;
   border-radius: 100%;
   margin: 0.5rem 1rem 0 0;
+}
+
+section p{
+  margin: 4rem 0px 0rem 2rem;
 }
 
 a {
