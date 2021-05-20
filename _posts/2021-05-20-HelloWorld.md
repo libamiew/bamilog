@@ -4,23 +4,19 @@ title: HelloWorld
 date: 2020-05-20
 ---
 
-# Flowchart
+Flowchart
 
 상태: Plan
 
-# 순서도(Flowchart) 작성법
+##순서도(Flowchart) 작성법
 
-![Flowchart%20daeac6a2db354c4b8e86f7661a8ec39f/Untitled.png](Flowchart%20daeac6a2db354c4b8e86f7661a8ec39f/Untitled.png)
-
-![Flowchart%20daeac6a2db354c4b8e86f7661a8ec39f/Untitled%201.png](Flowchart%20daeac6a2db354c4b8e86f7661a8ec39f/Untitled%201.png)
-
-# **Flowchart?**
+**Flowchart?**
 
 **플로우차트(Flowchart)란 프로세스를 수행하기 위해 필요한 일련의 단계와 결정을 시각적으로 표현한 자료**이다. 각각의 단계는 다이어그램 도형 안에 표현이 되며 진행 순서는 화살표를 이용하여 표현한다. 이러한 플로우차트는 복잡한 프로세스를 명확하고 이해하기 쉬운 다이어그램으로 문서화하기 위해 사용된다.
 
 ![https://blog.kakaocdn.net/dn/cRbgnr/btqIrvcs9Iq/ix81RiOjS5tjd512obqFy1/img.jpg](https://blog.kakaocdn.net/dn/cRbgnr/btqIrvcs9Iq/ix81RiOjS5tjd512obqFy1/img.jpg)
 
-# 순서도
+순서도
 
 프로그래밍을 하기 전에 그 프로그램의 흐름을 기호화한 것
 
