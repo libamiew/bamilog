@@ -571,3 +571,134 @@ article .meta {
   background-color: black;
   border: 2px solid white;
 }
+
+/* header */
+
+.h_menu {
+  background-color: #fff;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.h_menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.h_menu li a {
+  display: block;
+  padding: 20px 20px;
+  border-right: 1px solid #f4f4f4;
+  text-decoration: none;
+}
+
+.h_menu li a:hover,
+.h_menu .menu-btn:hover {
+  background-color: #f4f4f4;
+}
+
+.h_menu .logo {
+  display: block;
+  float: left;
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* menu */
+
+.h_menu .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.h_menu .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.h_menu .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.h_menu .menu-icon .navicon:before,
+.h_menu .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.h_menu .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.h_menu .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.h_menu .menu-btn {
+  display: none;
+}
+
+.h_menu .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.h_menu .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.h_menu .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.h_menu .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.h_menu .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.h_menu .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .h_menu li {
+    float: left;
+  }
+  .h_menu li a {
+    padding: 20px 30px;
+  }
+  .h_menu .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .h_menu .menu-icon {
+    display: none;
+  }
+}
