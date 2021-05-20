@@ -1,4 +1,4 @@
-title: Bami Log
+title: Bami Log!
 markdown: kramdown
 url: "https://libamiew.github.io/"
 baseurl: "/bamilog"
@@ -8,7 +8,8 @@ author:
   name: Bami Li
   email: libamiew@gmail.com
   image: "https://avatars.githubusercontent.com/u/75570052?v=4"
-  bio: Developed by <b>Bami Li</b> who lives in Seoul building useful things for the world.
+  bio: Developed by <b>Bami Li</b>
+       </br> who lives in Seoul building useful things for the world.
   github: "libamiew"
 
 plugins:
