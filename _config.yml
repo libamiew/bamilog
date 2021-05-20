@@ -1,7 +1,7 @@
 title: Bami Log
 markdown: kramdown
-url: "https://libamiew.github.io/bamiloge/"
-baseurl: "/bamiloge"
+url: "https://libamiew.github.io/"
+baseurl: "/bamilog"
 
 # for atom feed
 author:
